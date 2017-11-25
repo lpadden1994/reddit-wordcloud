@@ -2,32 +2,15 @@
 This program will create a wordcloud using the post titles on the front page of reddit.
 
 
-To begin, make sure to import the necessary python libraries into a directory of your choice.
-
-``` cd desktop \n
-    mkdir python-projects
-    cd python-projects
+To run the program, download and unzip the project folder then cd into the reddit wordcloud folder and run:
+```
+    cd reddit-wordcloud
+    python reddit_scraper.py
+    python reddit_wordcloud.py
 ```
 
-then you will want to import the libraries using pip, pythons package manager.
-
-``` pip install workcloud
-    pip install beautifulsoup4
-    pip install requests
-```
+One file scrapes the data you need, and the second file generates the wordcloud for you.
 
 
-Next off, make a file called reddit_scraper.py inside the directory you just created.
-
-```
-    touch reddit_scraper.py
-```
-
-Now open this file and import the necessary libraries.
-
-```python
-    from bs4 import BeautifulSoup
-    import requests
-```
     
 
